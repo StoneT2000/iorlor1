@@ -4,10 +4,10 @@ html {
 .mainContent {
   width: 80%;
   height: 50%;
-  overflow: auto;
   margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
+  font-family:'open-sans';
 }
 #charinput {
   background-color:rgb(254,254,254);
@@ -71,4 +71,17 @@ html {
 }
 .char:hover {
   color:rgb(40, 153, 236);
+}
+#disp div {
+  font-family:'open-sans';
+  font-size:0.8rem;
+}
+#disp div, #disp i {
+  position: absolute;
+  width:150px;
+}
+#disp i {
+  font-size:1rem;
+}
+#disp {
 }
